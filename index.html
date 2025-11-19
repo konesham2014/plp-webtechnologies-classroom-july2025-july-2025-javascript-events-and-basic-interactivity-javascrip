@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senait's Interactive Web Page with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Interactive Web Page Demo</h1>
+        <p>Learn event handling, interactive elements, and form validation.</p>
+    </header>
+
+    <!-- Part 1: Event Handling -->
+    <section id="event-handling">
+        <h2>Part 1: Event Handling</h2>
+        <button id="clickMeBtn">Click Me!</button>
+        <p id="clickMessage"></p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section id="interactive-elements">
+        <h2>Part 2: Interactive Elements</h2>
+        <button id="toggleModeBtn">Toggle Dark/Light Mode</button>
+        <p id="modeMessage">Current mode: Light</p>
+
+        <h3>Counter Example</h3>
+        <button id="decrementBtn">-</button>
+        <span id="counter">0</span>
+        <button id="incrementBtn">+</button>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section id="form-validation">
+        <h2>Part 3: Custom Form Validation</h2>
+        <form id="signupForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <p class="error-message" id="nameError"></p>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <p class="error-message" id="emailError"></p>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <p class="error-message" id="passwordError"></p>
+
+            <button type="submit">Submit</button>
+            <p id="formSuccess"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Interactive Page Project | <a href="konesham1993@gmail.com">konesham1993@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
